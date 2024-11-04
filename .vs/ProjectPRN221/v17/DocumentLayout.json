@@ -3,40 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A10EDC89-868E-4739-BC08-7FEEE5B4CBD0}|UI\\UI.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10EDC89-868E-4739-BC08-7FEEE5B4CBD0}|UI\\UI.csproj|solutionrelative:ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B757A1FD-6C15-49CE-A135-33934CF2160A}|UIView\\UIView.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\uiview\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B757A1FD-6C15-49CE-A135-33934CF2160A}|UIView\\UIView.csproj|solutionrelative:uiview\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EDC89-868E-4739-BC08-7FEEE5B4CBD0}|UI\\UI.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A10EDC89-868E-4739-BC08-7FEEE5B4CBD0}|UI\\UI.csproj|solutionrelative:ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B757A1FD-6C15-49CE-A135-33934CF2160A}|UIView\\UIView.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\uiview\\view\\productpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B757A1FD-6C15-49CE-A135-33934CF2160A}|UIView\\UIView.csproj|solutionrelative:uiview\\view\\productpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EDC89-868E-4739-BC08-7FEEE5B4CBD0}|UI\\UI.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\ui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10EDC89-868E-4739-BC08-7FEEE5B4CBD0}|UI\\UI.csproj|solutionrelative:ui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B757A1FD-6C15-49CE-A135-33934CF2160A}|UIView\\UIView.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\uiview\\view\\productpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B757A1FD-6C15-49CE-A135-33934CF2160A}|UIView\\UIView.csproj|solutionrelative:uiview\\view\\productpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EDC89-868E-4739-BC08-7FEEE5B4CBD0}|UI\\UI.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A10EDC89-868E-4739-BC08-7FEEE5B4CBD0}|UI\\UI.csproj|solutionrelative:ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B757A1FD-6C15-49CE-A135-33934CF2160A}|UIView\\UIView.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\uiview\\viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B757A1FD-6C15-49CE-A135-33934CF2160A}|UIView\\UIView.csproj|solutionrelative:uiview\\viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EDC89-868E-4739-BC08-7FEEE5B4CBD0}|UI\\UI.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A10EDC89-868E-4739-BC08-7FEEE5B4CBD0}|UI\\UI.csproj|solutionrelative:ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B757A1FD-6C15-49CE-A135-33934CF2160A}|UIView\\UIView.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\uiview\\uiview.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B757A1FD-6C15-49CE-A135-33934CF2160A}|UIView\\UIView.csproj|solutionrelative:uiview\\uiview.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EDC89-868E-4739-BC08-7FEEE5B4CBD0}|UI\\UI.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\ui\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10EDC89-868E-4739-BC08-7FEEE5B4CBD0}|UI\\UI.csproj|solutionrelative:ui\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B757A1FD-6C15-49CE-A135-33934CF2160A}|UIView\\UIView.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\uiview\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B757A1FD-6C15-49CE-A135-33934CF2160A}|UIView\\UIView.csproj|solutionrelative:uiview\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EDC89-868E-4739-BC08-7FEEE5B4CBD0}|UI\\UI.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\ui\\viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10EDC89-868E-4739-BC08-7FEEE5B4CBD0}|UI\\UI.csproj|solutionrelative:ui\\viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B757A1FD-6C15-49CE-A135-33934CF2160A}|UIView\\UIView.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\uiview\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B757A1FD-6C15-49CE-A135-33934CF2160A}|UIView\\UIView.csproj|solutionrelative:uiview\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EDC89-868E-4739-BC08-7FEEE5B4CBD0}|UI\\UI.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\ui\\view\\productpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A10EDC89-868E-4739-BC08-7FEEE5B4CBD0}|UI\\UI.csproj|solutionrelative:ui\\view\\productpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B757A1FD-6C15-49CE-A135-33934CF2160A}|UIView\\UIView.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\uiview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B757A1FD-6C15-49CE-A135-33934CF2160A}|UIView\\UIView.csproj|solutionrelative:uiview\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EDC89-868E-4739-BC08-7FEEE5B4CBD0}|UI\\UI.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\ui\\view\\productpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10EDC89-868E-4739-BC08-7FEEE5B4CBD0}|UI\\UI.csproj|solutionrelative:ui\\view\\productpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B757A1FD-6C15-49CE-A135-33934CF2160A}|UIView\\UIView.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\uiview\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B757A1FD-6C15-49CE-A135-33934CF2160A}|UIView\\UIView.csproj|solutionrelative:uiview\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF442C5-C6C9-4928-94C5-1C26FF2CADE3}|DataAccess\\DataAccess.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\dataaccess\\dao\\branchdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF442C5-C6C9-4928-94C5-1C26FF2CADE3}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dao\\branchdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\ProjectPRN221\\View\\ProductPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,10 +131,6 @@
       "RelativeMoniker": "D:0:0:{8EF442C5-C6C9-4928-94C5-1C26FF2CADE3}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\branchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EF442C5-C6C9-4928-94C5-1C26FF2CADE3}|DataAccess\\DataAccess.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\dataaccess\\dao\\branchdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EF442C5-C6C9-4928-94C5-1C26FF2CADE3}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dao\\branchdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8EF442C5-C6C9-4928-94C5-1C26FF2CADE3}|DataAccess\\DataAccess.csproj|c:\\users\\phamg\\source\\repos\\projectprn221\\dataaccess\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EF442C5-C6C9-4928-94C5-1C26FF2CADE3}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -178,121 +178,137 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UI\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "UI\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UI\\MainWindow.xaml",
-              "RelativeToolTip": "UI\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-04T15:50:30.62Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UIView\\ViewModel\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "UIView\\ViewModel\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UIView\\ViewModel\\ProductViewModel.cs",
+              "RelativeToolTip": "UIView\\ViewModel\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:00:47.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UI\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "UI\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UI\\AssemblyInfo.cs",
-              "RelativeToolTip": "UI\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:50:27.795Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UIView\\App.xaml",
+              "RelativeDocumentMoniker": "UIView\\App.xaml",
+              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UIView\\App.xaml",
+              "RelativeToolTip": "UIView\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T16:02:12.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UIView.csproj",
+              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UIView\\UIView.csproj",
+              "RelativeDocumentMoniker": "UIView\\UIView.csproj",
+              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UIView\\UIView.csproj",
+              "RelativeToolTip": "UIView\\UIView.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-04T15:59:20.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UIView\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "UIView\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UIView\\MainWindow.xaml",
+              "RelativeToolTip": "UIView\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T15:59:02.226Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UI\\App.xaml.cs",
-              "RelativeDocumentMoniker": "UI\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UI\\App.xaml.cs",
-              "RelativeToolTip": "UI\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAnAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UIView\\App.xaml.cs",
+              "RelativeDocumentMoniker": "UIView\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UIView\\App.xaml.cs",
+              "RelativeToolTip": "UIView\\App.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:50:16.533Z",
+              "WhenOpened": "2024-11-04T16:02:03.6Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UI\\appsettings.json",
-              "RelativeDocumentMoniker": "UI\\appsettings.json",
-              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UI\\appsettings.json",
-              "RelativeToolTip": "UI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-04T15:50:13.581Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "ProductPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UIView\\View\\ProductPage.xaml.cs",
+              "RelativeDocumentMoniker": "UIView\\View\\ProductPage.xaml.cs",
+              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UIView\\View\\ProductPage.xaml.cs",
+              "RelativeToolTip": "UIView\\View\\ProductPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T16:10:52.162Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UI\\App.xaml",
-              "RelativeDocumentMoniker": "UI\\App.xaml",
-              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UI\\App.xaml",
-              "RelativeToolTip": "UI\\App.xaml",
+              "DocumentIndex": 2,
+              "Title": "ProductPage.xaml",
+              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UIView\\View\\ProductPage.xaml",
+              "RelativeDocumentMoniker": "UIView\\View\\ProductPage.xaml",
+              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UIView\\View\\ProductPage.xaml",
+              "RelativeToolTip": "UIView\\View\\ProductPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-04T15:50:10.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ViewModelBase.cs",
-              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UI\\ViewModel\\ViewModelBase.cs",
-              "RelativeDocumentMoniker": "UI\\ViewModel\\ViewModelBase.cs",
-              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UI\\ViewModel\\ViewModelBase.cs",
-              "RelativeToolTip": "UI\\ViewModel\\ViewModelBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:50:05.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T16:09:59.863Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ProductViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UI\\ViewModel\\ProductViewModel.cs",
-              "RelativeDocumentMoniker": "UI\\ViewModel\\ProductViewModel.cs",
-              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UI\\ViewModel\\ProductViewModel.cs",
-              "RelativeToolTip": "UI\\ViewModel\\ProductViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UIView\\ViewModel\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "UIView\\ViewModel\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UIView\\ViewModel\\ViewModelBase.cs",
+              "RelativeToolTip": "UIView\\ViewModel\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:49:58.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T16:01:04.914Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ProductPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UI\\View\\ProductPage.xaml.cs",
-              "RelativeDocumentMoniker": "UI\\View\\ProductPage.xaml.cs",
-              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UI\\View\\ProductPage.xaml.cs",
-              "RelativeToolTip": "UI\\View\\ProductPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UIView\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UIView\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UIView\\MainWindow.xaml.cs",
+              "RelativeToolTip": "UIView\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T15:49:29.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T15:59:01.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductPage.xaml",
-              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UI\\View\\ProductPage.xaml",
-              "RelativeDocumentMoniker": "UI\\View\\ProductPage.xaml",
-              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\UI\\View\\ProductPage.xaml",
-              "RelativeToolTip": "UI\\View\\ProductPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-04T15:49:09.627Z",
-              "EditorCaption": ""
+              "DocumentIndex": 14,
+              "Title": "BranchService.cs",
+              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\BusinessObject\\Service\\BranchService.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Service\\BranchService.cs",
+              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\BusinessObject\\Service\\BranchService.cs",
+              "RelativeToolTip": "BusinessObject\\Service\\BranchService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T12:30:43.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BranchDAO.cs",
+              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\DataAccess\\DAO\\BranchDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\DAO\\BranchDAO.cs",
+              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\DataAccess\\DAO\\BranchDAO.cs",
+              "RelativeToolTip": "DataAccess\\DAO\\BranchDAO.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAIAwwC0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T12:04:06.284Z"
             },
             {
               "$type": "Document",
@@ -308,18 +324,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "BranchService.cs",
-              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\BusinessObject\\Service\\BranchService.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\Service\\BranchService.cs",
-              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\BusinessObject\\Service\\BranchService.cs",
-              "RelativeToolTip": "BusinessObject\\Service\\BranchService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T12:30:43.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\BusinessObject\\IService\\ICategoryService.cs",
               "RelativeDocumentMoniker": "BusinessObject\\IService\\ICategoryService.cs",
@@ -343,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ProductPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\ProjectPRN221\\View\\ProductPage.xaml.cs",
               "RelativeDocumentMoniker": "ProjectPRN221\\View\\ProductPage.xaml.cs",
@@ -378,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\BusinessObject\\Service\\ProductService.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Service\\ProductService.cs",
@@ -390,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ProductDAO.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\DataAccess\\DAO\\ProductDAO.cs",
               "RelativeDocumentMoniker": "DataAccess\\DAO\\ProductDAO.cs",
@@ -402,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "OrderDTO.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\BusinessObject\\DTO\\OrderDTO.cs",
               "RelativeDocumentMoniker": "BusinessObject\\DTO\\OrderDTO.cs",
@@ -414,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ProductDTO.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\BusinessObject\\DTO\\ProductDTO.cs",
               "RelativeDocumentMoniker": "BusinessObject\\DTO\\ProductDTO.cs",
@@ -426,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CategoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\BusinessObject\\DTO\\CategoryDTO.cs",
               "RelativeDocumentMoniker": "BusinessObject\\DTO\\CategoryDTO.cs",
@@ -438,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\DataAccess\\Models\\Order.cs",
               "RelativeDocumentMoniker": "DataAccess\\Models\\Order.cs",
@@ -450,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\DataAccess\\Repository\\OrderRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\Repository\\OrderRepository.cs",
@@ -462,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "InventoryTransactionDAO.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\DataAccess\\DAO\\InventoryTransactionDAO.cs",
               "RelativeDocumentMoniker": "DataAccess\\DAO\\InventoryTransactionDAO.cs",
@@ -474,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "SupplierDTO.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\BusinessObject\\DTO\\SupplierDTO.cs",
               "RelativeDocumentMoniker": "BusinessObject\\DTO\\SupplierDTO.cs",
@@ -486,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "BranchDTO.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\BusinessObject\\DTO\\BranchDTO.cs",
               "RelativeDocumentMoniker": "BusinessObject\\DTO\\BranchDTO.cs",
@@ -498,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\BusinessObject\\Service\\CategoryService.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Service\\CategoryService.cs",
@@ -510,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\DataAccess\\Repository\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\Repository\\CategoryRepository.cs",
@@ -522,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "IBranchRepository.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\DataAccess\\IRepository\\IBranchRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\IRepository\\IBranchRepository.cs",
@@ -534,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\BusinessObject\\IService\\IProductService.cs",
               "RelativeDocumentMoniker": "BusinessObject\\IService\\IProductService.cs",
@@ -546,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ProjectPRN221Context.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\DataAccess\\Models\\ProjectPRN221Context.cs",
               "RelativeDocumentMoniker": "DataAccess\\Models\\ProjectPRN221Context.cs",
@@ -558,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\DataAccess\\appsettings.json",
               "RelativeDocumentMoniker": "DataAccess\\appsettings.json",
@@ -581,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\DataAccess\\IRepository\\IProductRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\IRepository\\IProductRepository.cs",
@@ -593,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\DataAccess\\Repository\\ProductRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\Repository\\ProductRepository.cs",
@@ -605,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "BranchRepository.cs",
               "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\DataAccess\\Repository\\BranchRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\Repository\\BranchRepository.cs",
@@ -614,18 +618,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T12:04:10.059Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "BranchDAO.cs",
-              "DocumentMoniker": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\DataAccess\\DAO\\BranchDAO.cs",
-              "RelativeDocumentMoniker": "DataAccess\\DAO\\BranchDAO.cs",
-              "ToolTip": "C:\\Users\\phamg\\source\\repos\\ProjectPRN221\\DataAccess\\DAO\\BranchDAO.cs",
-              "RelativeToolTip": "DataAccess\\DAO\\BranchDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T12:04:06.284Z"
             },
             {
               "$type": "Document",

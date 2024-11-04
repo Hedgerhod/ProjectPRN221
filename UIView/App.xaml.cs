@@ -6,16 +6,13 @@ using DataAccess.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using UIWiew.ViewModel;
 using System.IO;
 using System.Windows;
 using UIView.View;
+using UIWiew.ViewModel;
 
 namespace UIView
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
     public partial class App : Application
     {
         public IServiceProvider ServiceProvider { get; set; }
@@ -31,6 +28,7 @@ namespace UIView
             RegisterViewModels(serviceCollection);
 
             ServiceProvider = serviceCollection.BuildServiceProvider();
+
             ServiceProvider.GetRequiredService<ProductPage>().Show();
         }
 
@@ -39,13 +37,15 @@ namespace UIView
             var configurationBuilder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+
             Configuration = configurationBuilder.Build();
             services.AddSingleton<IConfiguration>(Configuration);
         }
+
         private void RegisterDbContext(IServiceCollection services)
         {
             services.AddDbContext<ProjectPRN221Context>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("value")));
+                options.UseSqlServer(Configuration.GetConnectionString("value"))); 
         }
 
         private void RegisterServices(IServiceCollection services)
@@ -53,6 +53,7 @@ namespace UIView
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<IBranchService, BranchService>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<ISupplierService, SupplierService>();
         }
 
         private void RegisterRepositories(IServiceCollection services)
@@ -75,5 +76,4 @@ namespace UIView
             services.AddTransient<ProductPage>();
         }
     }
-
 }

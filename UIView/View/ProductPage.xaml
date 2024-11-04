@@ -7,23 +7,64 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         WindowState="Maximized"
-        Title="ProductPage" Height="450" Width="800">
+        ResizeMode="NoResize" 
+        Title="ProductPage" Height="600" Width="800">
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-
-        <TextBlock Text="Danh sách sản phẩm" FontSize="20" FontWeight="Bold" Margin="10" Grid.Row="0" Grid.Column="0"/>
+        <TextBlock Text="Danh sách sản phẩm" FontSize="20" FontWeight="Bold" Margin="10" Grid.Row="0"/>
+        <StackPanel Orientation="Vertical" Margin="10" Grid.Row="1">
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Vertical" Margin="10" Width="500">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Tìm kiếm theo tên sản phẩm:" Margin="0,0,5,5"/>
+                        <TextBox x:Name="ProductNameFilter" Width="200" Margin="0,0,0,5"
+                         Text="{Binding ProductNameFilter, UpdateSourceTrigger=PropertyChanged}"/>
+                    </StackPanel>
+                    <Label Content="Giá tối đa:" Margin="0,0,5,5"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Slider x:Name="PriceFilter" Minimum="0" Maximum="1000" Width="200" Margin="0,0,0,5"
+                        Value="{Binding MaxPriceFilter, UpdateSourceTrigger=PropertyChanged}" 
+                        TickFrequency="100" 
+                        IsSnapToTickEnabled="True" />
+                        <TextBlock Text="{Binding MaxPriceFilter, StringFormat=C}" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="10">
+                    <Label Content="Chọn nhà cung cấp:" Margin="0,0,5,5"/>
+                    <ComboBox x:Name="SupplierFilter" Width="150" Margin="0,0,0,5" 
+                      ItemsSource="{Binding Suppliers}" 
+                      DisplayMemberPath="SupplierName" 
+                      SelectedValuePath="SupplierId" 
+                      SelectedValue="{Binding SelectedSupplierId, Mode=TwoWay}"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="10">
+                    <Label Content="Chọn chi nhánh:" Margin="0,0,5,5"/>
+                    <ComboBox x:Name="BranchFilter" Width="150" Margin="0,0,0,5" 
+                      ItemsSource="{Binding Branches}" 
+                      DisplayMemberPath="BranchName" 
+                      SelectedValuePath="BranchId" 
+                      SelectedValue="{Binding SelectedBranchId, Mode=TwoWay}"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="10">
+                    <Label Content="Chọn loại sản phẩm:" Margin="0,0,5,5"/>
+                    <ComboBox x:Name="CategoryFilter" Width="150" Margin="0,0,0,5" 
+                      ItemsSource="{Binding Categories}" 
+                      DisplayMemberPath="CategoryName" 
+                      SelectedValuePath="CategoryId" 
+                      SelectedValue="{Binding SelectedCategoryId, Mode=TwoWay}"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
 
         <DataGrid ItemsSource="{Binding Products}" 
                   AutoGenerateColumns="False" CanUserAddRows="False" 
                   CanUserDeleteRows="False"
-                  Margin="10" FontFamily="Arial" FontSize="14" Grid.Row="1" Grid.Column="0"
+                  Margin="10" FontFamily="Arial" FontSize="14" Grid.Row="2"
                   HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <DataGrid.Columns>
                 <DataGridTemplateColumn Header="Hình ảnh" Width="200">
@@ -33,6 +74,7 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
+
                 <DataGridTemplateColumn Header="ID" MinWidth="100" Width="Auto">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
@@ -92,4 +134,3 @@
         </DataGrid>
     </Grid>
 </Window>
-

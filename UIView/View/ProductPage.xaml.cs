@@ -21,10 +21,10 @@ namespace UIView.View
     /// </summary>
     public partial class ProductPage : Window
     {
-        public ProductPage(IProductService productService)
+        public ProductPage(IProductService productService, IBranchService branchService, ICategoryService categoryService, ISupplierService supplierService)
         {
             InitializeComponent();
-            DataContext = new ProductViewModel(productService);
+            DataContext = new ProductViewModel(productService, branchService, categoryService, supplierService);
         }
     }
 }

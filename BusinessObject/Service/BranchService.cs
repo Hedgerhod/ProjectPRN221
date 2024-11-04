@@ -26,7 +26,6 @@ namespace BusinessObject.Service
                 Location = branchDTO.Location,
                 CreatedAt = branchDTO.CreatedAt
             };
-
             await _branchRepository.AddBranchAsync(branch);
         }
 

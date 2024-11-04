@@ -14,3 +14,4 @@ C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\bin\Debug\net6.0\DataAc
 C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\bin\Debug\net6.0\DataAccess.pdb
 C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.AssemblyReference.cache
 C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\obj\Debug\net6.0\Business.4FFE46AD.Up2Date
+C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\obj\Debug\net6.0\BusinessObject.sourcelink.json

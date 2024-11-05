@@ -1,0 +1,34 @@
+C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\bin\Debug\net6.0\BusinessObject.deps.json
+C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\bin\Debug\net6.0\BusinessObject.dll
+C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\bin\Debug\net6.0\BusinessObject.pdb
+C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\obj\Debug\net6.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfo.cs
+C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\obj\Debug\net6.0\BusinessObject.dll
+C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\obj\Debug\net6.0\refint\BusinessObject.dll
+C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\obj\Debug\net6.0\BusinessObject.pdb
+C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\obj\Debug\net6.0\ref\BusinessObject.dll
+C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\bin\Debug\net6.0\appsettings.json
+C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\bin\Debug\net6.0\DataAccess.dll
+C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.AssemblyReference.cache
+C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\obj\Debug\net6.0\Business.4FFE46AD.Up2Date
+C:\Users\phamg\source\repos\ProjectPRN221\BusinessObject\obj\Debug\net6.0\BusinessObject.sourcelink.json
+D:\FPT Daze\SE7\PRN221\Project\BusinessObject\bin\Debug\net6.0\appsettings.json
+D:\FPT Daze\SE7\PRN221\Project\BusinessObject\bin\Debug\net6.0\BusinessObject.deps.json
+D:\FPT Daze\SE7\PRN221\Project\BusinessObject\bin\Debug\net6.0\BusinessObject.dll
+D:\FPT Daze\SE7\PRN221\Project\BusinessObject\bin\Debug\net6.0\BusinessObject.pdb
+D:\FPT Daze\SE7\PRN221\Project\BusinessObject\bin\Debug\net6.0\DataAccess.dll
+D:\FPT Daze\SE7\PRN221\Project\BusinessObject\bin\Debug\net6.0\DataAccess.pdb
+D:\FPT Daze\SE7\PRN221\Project\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.AssemblyReference.cache
+D:\FPT Daze\SE7\PRN221\Project\BusinessObject\obj\Debug\net6.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT Daze\SE7\PRN221\Project\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfoInputs.cache
+D:\FPT Daze\SE7\PRN221\Project\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfo.cs
+D:\FPT Daze\SE7\PRN221\Project\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.CoreCompileInputs.cache
+D:\FPT Daze\SE7\PRN221\Project\BusinessObject\obj\Debug\net6.0\BusinessObject.sourcelink.json
+D:\FPT Daze\SE7\PRN221\Project\BusinessObject\obj\Debug\net6.0\Business.4FFE46AD.Up2Date
+D:\FPT Daze\SE7\PRN221\Project\BusinessObject\obj\Debug\net6.0\BusinessObject.dll
+D:\FPT Daze\SE7\PRN221\Project\BusinessObject\obj\Debug\net6.0\refint\BusinessObject.dll
+D:\FPT Daze\SE7\PRN221\Project\BusinessObject\obj\Debug\net6.0\BusinessObject.pdb
+D:\FPT Daze\SE7\PRN221\Project\BusinessObject\obj\Debug\net6.0\ref\BusinessObject.dll

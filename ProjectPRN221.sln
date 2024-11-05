@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation Layer", "1. Presentation Layer", "{52175548-9A87-44EF-AAFD-8A356729CFCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Business Layer", "2. Business Layer", "{444F084A-EBC8-4AEF-B46D-F3CA9B6E1A3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Data Layer", "3. Data Layer", "{60F1A08F-535A-4312-8D82-191BD16E1455}"
+	ProjectSection(SolutionItems) = preProject
+		BusinessObject\Service\CategoryService.cs = BusinessObject\Service\CategoryService.cs
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessObject", "BusinessObject\BusinessObject.csproj", "{C678AD7E-619E-4901-A837-D4D04DEBCC23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{8EF442C5-C6C9-4928-94C5-1C26FF2CADE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{C184C578-D0C1-4D19-8519-6103F05987B7}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\Sample.jpg = ..\..\..\Downloads\Sample.jpg
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UIView", "UIView\UIView.csproj", "{B757A1FD-6C15-49CE-A135-33934CF2160A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C678AD7E-619E-4901-A837-D4D04DEBCC23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C678AD7E-619E-4901-A837-D4D04DEBCC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C678AD7E-619E-4901-A837-D4D04DEBCC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C678AD7E-619E-4901-A837-D4D04DEBCC23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF442C5-C6C9-4928-94C5-1C26FF2CADE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF442C5-C6C9-4928-94C5-1C26FF2CADE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF442C5-C6C9-4928-94C5-1C26FF2CADE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF442C5-C6C9-4928-94C5-1C26FF2CADE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B757A1FD-6C15-49CE-A135-33934CF2160A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B757A1FD-6C15-49CE-A135-33934CF2160A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B757A1FD-6C15-49CE-A135-33934CF2160A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B757A1FD-6C15-49CE-A135-33934CF2160A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C678AD7E-619E-4901-A837-D4D04DEBCC23} = {444F084A-EBC8-4AEF-B46D-F3CA9B6E1A3E}
+		{8EF442C5-C6C9-4928-94C5-1C26FF2CADE3} = {60F1A08F-535A-4312-8D82-191BD16E1455}
+		{C184C578-D0C1-4D19-8519-6103F05987B7} = {52175548-9A87-44EF-AAFD-8A356729CFCF}
+		{B757A1FD-6C15-49CE-A135-33934CF2160A} = {52175548-9A87-44EF-AAFD-8A356729CFCF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12E815C8-377F-4E74-ADF8-E39D1122C492}
+	EndGlobalSection
+EndGlobal

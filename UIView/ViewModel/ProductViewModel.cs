@@ -5,6 +5,10 @@ using System.Threading.Tasks;
 using System.Linq;
 using BusinessObject.DTO;
 using BusinessObject.Service;
+using System.Windows.Input;
+using UIView.ViewModel;
+using System.Windows;
+using System.Configuration;
 
 namespace UIWiew.ViewModel
 {
@@ -25,6 +29,9 @@ namespace UIWiew.ViewModel
         private int? _selectedSupplierId;
         private int? _selectedBranchId;
         private int? _selectedCategoryId;
+        private string _visible;
+
+        private List<ProductDTO> _allProducts;
 
         public ObservableCollection<ProductDTO> Products
         {
@@ -99,8 +106,26 @@ namespace UIWiew.ViewModel
             }
         }
 
+        public String Visible
+        {
+            get { return _visible; }
+            set
+            {
+                _visible = value;
+                OnPropertyChanged(nameof(Visible));
+            }
+        }
+
+        public RelayCommand RefreshCommand { get; }
+/*        public RelayCommand CreateCommand { get; }
+        public RelayCommand HomeCommand { get; }*/
+
         public ProductViewModel(IProductService productService, IBranchService branchService, ICategoryService categoryService, ISupplierService supplierService)
         {
+            Application.Current.Properties["Role"] = 1;
+            int Role = (Application.Current.Properties["Role"] as int?) ?? 1;
+            Visible = Role == 1 ? "Hidden" : "Visible";
+
             _productService = productService;
             _supplierService = supplierService;
             _branchService = branchService;
@@ -111,6 +136,10 @@ namespace UIWiew.ViewModel
             Branches = new ObservableCollection<BranchDTO>();
             Categories = new ObservableCollection<CategoryDTO>();
 
+            RefreshCommand = new RelayCommand(Refresh);
+/*            CreateCommand = new RelayCommand(OpenCreatePopup);
+            HomeCommand = new RelayCommand(NavigateToHome);*/
+
             InitializeAsync();
         }
         public async Task InitializeAsync()
@@ -120,10 +149,23 @@ namespace UIWiew.ViewModel
             await LoadBranchesAsync();
             await LoadCategoriesAsync();
         }
-
+        private void Refresh()
+        {
+            ProductNameFilter = string.Empty;
+            MaxPriceFilter = 0;
+            SelectedSupplierId = null;
+            SelectedBranchId = null;
+            SelectedCategoryId = null;
+            Products.Clear();
+            foreach (var product in _allProducts)
+            {
+                Products.Add(product);
+            }
+        }
         private async Task LoadProductsAsync()
         {
             var products = await _productService.GetAllProductsAsync();
+            _allProducts = products.ToList();
             Products.Clear();
             foreach (var product in products)
             {
@@ -166,8 +208,7 @@ namespace UIWiew.ViewModel
         }
         private async Task FilterProducts()
         {
-            var filteredProducts = await _productService.GetAllProductsAsync();
-            var filtered = filteredProducts.Where(p =>
+            var filtered = _allProducts.Where(p =>
                 (string.IsNullOrEmpty(ProductNameFilter) || p.ProductName.Contains(ProductNameFilter)) &&
                 (MaxPriceFilter == 0 || p.Price <= MaxPriceFilter) &&
                 (SelectedSupplierId == null || p.SupplierId == SelectedSupplierId) &&

@@ -14,7 +14,7 @@ namespace UIView.Converter
         {
             if (value is bool booleanValue)
             {
-                return booleanValue ? "Có" : "Không";
+                return booleanValue ? "Còn Hàng" : "Hết Hàng";
             }
             return "Không xác định";
         }
@@ -23,7 +23,7 @@ namespace UIView.Converter
         {
             if (value is string stringValue)
             {
-                return stringValue == "Có";
+                return stringValue == "Còn Hàng";
             }
             return false;
         }

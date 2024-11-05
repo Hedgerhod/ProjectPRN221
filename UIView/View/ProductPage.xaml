@@ -3,12 +3,17 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:converter="clr-namespace:UIView.Converter"
         xmlns:local="clr-namespace:UIView.View"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         WindowState="Maximized"
         ResizeMode="NoResize" 
-        Title="ProductPage" Height="600" Width="800">
+        Title="ProductPage" Height="600">
+    <Window.Resources>
+        <converter:BooleanToStringConverter x:Key="BooleanToStringConverter"/>
+        <converter:RoleToVisibilityConverter x:Key="RoleToVisibilityConverter"/>
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -25,9 +30,9 @@
                         <TextBox x:Name="ProductNameFilter" Width="200" Margin="0,0,0,5"
                          Text="{Binding ProductNameFilter, UpdateSourceTrigger=PropertyChanged}"/>
                     </StackPanel>
-                    <Label Content="Giá tối đa:" Margin="0,0,5,5"/>
                     <StackPanel Orientation="Horizontal">
-                        <Slider x:Name="PriceFilter" Minimum="0" Maximum="1000" Width="200" Margin="0,0,0,5"
+                        <Label Content="Giá tối đa:" Margin="0,0,5,5"/>
+                        <Slider x:Name="PriceFilter" Minimum="0" Maximum="1000" Width="200" Margin="0,5,0,5"
                         Value="{Binding MaxPriceFilter, UpdateSourceTrigger=PropertyChanged}" 
                         TickFrequency="100" 
                         IsSnapToTickEnabled="True" />
@@ -58,6 +63,11 @@
                       SelectedValuePath="CategoryId" 
                       SelectedValue="{Binding SelectedCategoryId, Mode=TwoWay}"/>
                 </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10" VerticalAlignment="Bottom">
+                    <Button Content="Refresh" Width="100" Height="30" Margin="5,0" Command="{Binding RefreshCommand}" />
+                    <Button Content="Create" Width="100" Height="30" Margin="100,0,0,0" Command="{Binding CreateCommand}" />
+                    <Button Content="Home" Width="100" Height="30" Margin="5,0" Command="{Binding HomeCommand}" />
+                </StackPanel>
             </StackPanel>
         </StackPanel>
 
@@ -68,6 +78,11 @@
                   HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <DataGrid.Columns>
                 <DataGridTemplateColumn Header="Hình ảnh" Width="200">
+                    <DataGridTemplateColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTemplateColumn.HeaderStyle>
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Image Source="{Binding ImageUrl}" Stretch="UniformToFill" />
@@ -76,6 +91,11 @@
                 </DataGridTemplateColumn>
 
                 <DataGridTemplateColumn Header="ID" MinWidth="100" Width="Auto">
+                    <DataGridTemplateColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTemplateColumn.HeaderStyle>
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding ProductId}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -84,6 +104,11 @@
                 </DataGridTemplateColumn>
 
                 <DataGridTemplateColumn Header="Tên sản phẩm" MinWidth="150" Width="Auto">
+                    <DataGridTemplateColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTemplateColumn.HeaderStyle>
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding ProductName}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -92,6 +117,11 @@
                 </DataGridTemplateColumn>
 
                 <DataGridTemplateColumn Header="Giá" MinWidth="100" Width="Auto">
+                    <DataGridTemplateColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTemplateColumn.HeaderStyle>
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding Price, StringFormat=C}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -100,6 +130,11 @@
                 </DataGridTemplateColumn>
 
                 <DataGridTemplateColumn Header="Số lượng" MinWidth="100" Width="Auto">
+                    <DataGridTemplateColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTemplateColumn.HeaderStyle>
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding Quantity}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -108,6 +143,11 @@
                 </DataGridTemplateColumn>
 
                 <DataGridTemplateColumn Header="Số lượng tồn kho" MinWidth="100" Width="Auto">
+                    <DataGridTemplateColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTemplateColumn.HeaderStyle>
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding StockQuantity}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -116,17 +156,49 @@
                 </DataGridTemplateColumn>
 
                 <DataGridTemplateColumn Header="Kích hoạt" MinWidth="100" Width="Auto">
+                    <DataGridTemplateColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTemplateColumn.HeaderStyle>
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <TextBlock Text="{Binding IsActive}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <TextBlock Text="{Binding IsActive, Converter={StaticResource BooleanToStringConverter}}" 
+                               HorizontalAlignment="Center" 
+                               VerticalAlignment="Center"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
 
                 <DataGridTemplateColumn Header="Mô tả" MinWidth="200" Width="*">
+                    <DataGridTemplateColumn.HeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                        </Style>
+                    </DataGridTemplateColumn.HeaderStyle>
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <TextBlock Text="{Binding Description}" TextWrapping="Wrap" />
+                            <TextBlock Text="{Binding Description}" TextWrapping="Wrap" VerticalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="" Width="120"
+                                        Visibility="{Binding Visible}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <Button Content="Cập nhật" Width="100" Height="30" Command="{Binding DataContext.UpdateCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" CommandParameter="{Binding}" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="" Width="120"
+                                        Visibility="{Binding Visible}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <Button Content="Xóa"  Width="100" Height="30" Command="{Binding DataContext.DeleteCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" CommandParameter="{Binding}" />
+                            </StackPanel>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
